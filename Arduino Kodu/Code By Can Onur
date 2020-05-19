@@ -1,0 +1,35 @@
+//Yapan Can Onur
+//Youtube Kanalım www.youtube.com/c/CanOnur0
+int aled = 3; 
+int bled = 4; 
+int cled = 5; 
+int dled = 6; 
+int eled = 7; 
+void setup() {
+pinMode (aled, OUTPUT); 
+pinMode (bled, OUTPUT); 
+pinMode (cled, OUTPUT);
+pinMode (dled, OUTPUT); 
+pinMode (eled, OUTPUT);
+}
+void loop() {
+digitalWrite (aled, HIGH); 
+delay (100); 
+digitalWrite (aled, LOW);
+delay (100); 
+digitalWrite (bled, HIGH); 
+delay (100); 
+digitalWrite (bled, LOW); 
+delay (100); 
+digitalWrite (cled, HIGH); 
+delay (100); 
+digitalWrite (cled, LOW); 
+delay (100); 
+digitalWrite (dled, HIGH); 
+delay (100); 
+digitalWrite (dled, LOW); 
+delay (100);
+digitalWrite (eled, HIGH); 
+delay (100);
+digitalWrite (eled, LOW);
+}
